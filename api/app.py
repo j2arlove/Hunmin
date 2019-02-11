@@ -31,7 +31,6 @@ def translate_rows(rows):
         'traditional': r[5],
         'intonation': r[6],
         'priority': r[7]
-    #   'user': r[9],
     } for r in rows]
 
 @app.route('/search/jamo/<string:text>/<int:offset>/<int:count>')
